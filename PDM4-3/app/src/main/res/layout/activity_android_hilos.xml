@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="uni.pdm.jesuslovon.pdm4_3.AndroidHilos">
+
+    <ProgressBar
+        android:id="@+id/pbarProgreso"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:max="100" />
+    <Button
+        android:id="@+id/btnSinHilos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSinhilos"
+        android:text="Ejecución sin hilos" />
+
+    <Button
+        android:id="@+id/btnHilo"
+        android:layout_width="wrap_content"
+        android:layout_height="
+        wrap_content"
+        android:onClick="btnHilo"
+        android:text="Ejecutar hilo" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnAsyncTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnAsyntask"
+            android:text="Ejecutar Asyntask" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnAsyntaskCancelar"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAsyncDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnFull"
+        android:text="Asyntask + ProgressDialgo" />
+
+</LinearLayout>

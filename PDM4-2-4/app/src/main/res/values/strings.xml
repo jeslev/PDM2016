@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PDM4-2-4</string>
+    <string name="boton">Ir a segunda Activty</string>
+    <string name="boton1">Pagina Web</string>
+    <string name="boton2">Marcar telefono</string>
+    <string name="boton3">Lllamar directo</string>
+    <string name="boton4">Agregar contacto</string>
+    <string name="boton5">Crear alarma</string>
+    <string name="boton6">Enviar email</string>
+    <string name="boton7">Camara Foto</string>
+    <string name="boton8">Camara Video</string>
+    <string name="boton9">Mostrar GPS</string>
+    <string name="boton10">Compartir texto</string>
+    <string name="mail">yo@correo.com</string>
+    <string name="subject">Asunto</string>
+    <string name="envio">Envio</string>
+    <string name="exit">Exit</string>
+</resources>
