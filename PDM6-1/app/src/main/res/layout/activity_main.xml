@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jesuslovon.pdm.uni.pdm6_1.MainActivity"
+    android:orientation="horizontal"
+    android:id="@+id/main"
+    android:weightSum="2">
+
+    <include
+        layout="@layout/toolbar"
+        />
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/appbartabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/ic_action_action_help">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+    </FrameLayout>
+
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/izquierdo"
+        class="jesuslovon.pdm.uni.pdm6_1.Izquierdo" />
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/derecho"
+        class="jesuslovon.pdm.uni.pdm6_1.Derecho" />
+    
+
+</LinearLayout>
