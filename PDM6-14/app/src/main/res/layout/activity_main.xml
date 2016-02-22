@@ -4,7 +4,7 @@
     android:id="@+id/navigation_drawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="@bool/fitsSystemWindows">
     <!-- código puesto en los siguientes puntos -->
 
     <LinearLayout
@@ -19,7 +19,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_horizontal_margin">
+            android:layout_marginTop="@dimen/navigation_drawer_header_margin">
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                 android:layout_gravity="center"
                 android:text="Inbox"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textColor="@color/md_amber_A100" />
+                android:textColor="@color/md_text" />
         </FrameLayout>
 
     </LinearLayout>

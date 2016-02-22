@@ -1,6 +1,5 @@
 package jesuslovon.pdm.uni.pdm6_14;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         drawerLayout = (DrawerLayout)
-                findViewById(R.id.navegation_layout);
+                findViewById(R.id.navigation_drawer);
 
         NavigationView navigationView = (NavigationView)
                 findViewById(R.id.navigation_view);
